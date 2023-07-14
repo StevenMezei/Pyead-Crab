@@ -1,0 +1,1543 @@
+{
+    "nodes": [
+        {
+            "id": "Strength.__init__(self, strength, name)",
+            "name": "__init__",
+            "params": "self, strength, name",
+            "class": "Strength",
+            "calls": 10
+        },
+        {
+            "id": "Strength.stronger(cls, s1, s2)",
+            "name": "stronger",
+            "params": "cls, s1, s2",
+            "class": "Strength",
+            "calls": 3
+        },
+        {
+            "id": "Strength.weaker(cls, s1, s2)",
+            "name": "weaker",
+            "params": "cls, s1, s2",
+            "class": "Strength",
+            "calls": 3
+        },
+        {
+            "id": "Strength.weakest_of(cls, s1, s2)",
+            "name": "weakest_of",
+            "params": "cls, s1, s2",
+            "class": "Strength",
+            "calls": 2
+        },
+        {
+            "id": "Strength.strongest(cls, s1, s2)",
+            "name": "strongest",
+            "params": "cls, s1, s2",
+            "class": "Strength",
+            "calls": 0
+        },
+        {
+            "id": "Strength.next_weaker(self)",
+            "name": "next_weaker",
+            "params": "self",
+            "class": "Strength",
+            "calls": 4
+        },
+        {
+            "id": "Constraint.__init__(self, strength)",
+            "name": "__init__",
+            "params": "self, strength",
+            "class": "Constraint",
+            "calls": 10
+        },
+        {
+            "id": "Constraint.add_constraint(self)",
+            "name": "add_constraint",
+            "params": "self",
+            "class": "Constraint",
+            "calls": 7
+        },
+        {
+            "id": "Constraint.satisfy(self, mark)",
+            "name": "satisfy",
+            "params": "self, mark",
+            "class": "Constraint",
+            "calls": 1
+        },
+        {
+            "id": "Constraint.destroy_constraint(self)",
+            "name": "destroy_constraint",
+            "params": "self",
+            "class": "Constraint",
+            "calls": 0
+        },
+        {
+            "id": "Constraint.is_input(self)",
+            "name": "is_input",
+            "params": "self",
+            "class": "Constraint",
+            "calls": 9
+        },
+        {
+            "id": "UrnaryConstraint.__init__(self, v, strength)",
+            "name": "__init__",
+            "params": "self, v, strength",
+            "class": "UrnaryConstraint",
+            "calls": 10
+        },
+        {
+            "id": "UrnaryConstraint.add_to_graph(self)",
+            "name": "add_to_graph",
+            "params": "self",
+            "class": "UrnaryConstraint",
+            "calls": 1
+        },
+        {
+            "id": "UrnaryConstraint.choose_method(self, mark)",
+            "name": "choose_method",
+            "params": "self, mark",
+            "class": "UrnaryConstraint",
+            "calls": 0
+        },
+        {
+            "id": "UrnaryConstraint.is_satisfied(self)",
+            "name": "is_satisfied",
+            "params": "self",
+            "class": "UrnaryConstraint",
+            "calls": 3
+        },
+        {
+            "id": "UrnaryConstraint.mark_inputs(self, mark)",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "class": "UrnaryConstraint",
+            "calls": 8
+        },
+        {
+            "id": "UrnaryConstraint.output(self)",
+            "name": "output",
+            "params": "self",
+            "class": "UrnaryConstraint",
+            "calls": 10
+        },
+        {
+            "id": "UrnaryConstraint.recalculate(self)",
+            "name": "recalculate",
+            "params": "self",
+            "class": "UrnaryConstraint",
+            "calls": 2
+        },
+        {
+            "id": "UrnaryConstraint.mark_unsatisfied(self)",
+            "name": "mark_unsatisfied",
+            "params": "self",
+            "class": "UrnaryConstraint",
+            "calls": 1
+        },
+        {
+            "id": "UrnaryConstraint.inputs_known(self, mark)",
+            "name": "inputs_known",
+            "params": "self, mark",
+            "class": "UrnaryConstraint",
+            "calls": 8
+        },
+        {
+            "id": "UrnaryConstraint.remove_from_graph(self)",
+            "name": "remove_from_graph",
+            "params": "self",
+            "class": "UrnaryConstraint",
+            "calls": 2
+        },
+        {
+            "id": "StayConstraint.__init__(self, v, string)",
+            "name": "__init__",
+            "params": "self, v, string",
+            "class": "StayConstraint",
+            "calls": 10
+        },
+        {
+            "id": "StayConstraint.execute(self)",
+            "name": "execute",
+            "params": "self",
+            "class": "StayConstraint",
+            "calls": 4
+        },
+        {
+            "id": "EditConstraint.__init__(self, v, string)",
+            "name": "__init__",
+            "params": "self, v, string",
+            "class": "EditConstraint",
+            "calls": 10
+        },
+        {
+            "id": "EditConstraint.is_input(self)",
+            "name": "is_input",
+            "params": "self",
+            "class": "EditConstraint",
+            "calls": 9
+        },
+        {
+            "id": "EditConstraint.execute(self)",
+            "name": "execute",
+            "params": "self",
+            "class": "EditConstraint",
+            "calls": 4
+        },
+        {
+            "id": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "name": "__init__",
+            "params": "self, v1, v2, strength",
+            "class": "BinaryConstraint",
+            "calls": 10
+        },
+        {
+            "id": "BinaryConstraint.choose_method(self, mark)",
+            "name": "choose_method",
+            "params": "self, mark",
+            "class": "BinaryConstraint",
+            "calls": 0
+        },
+        {
+            "id": "BinaryConstraint.add_to_graph(self)",
+            "name": "add_to_graph",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 1
+        },
+        {
+            "id": "BinaryConstraint.is_satisfied(self)",
+            "name": "is_satisfied",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 3
+        },
+        {
+            "id": "BinaryConstraint.mark_inputs(self, mark)",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "class": "BinaryConstraint",
+            "calls": 8
+        },
+        {
+            "id": "BinaryConstraint.input(self)",
+            "name": "input",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 7
+        },
+        {
+            "id": "BinaryConstraint.output(self)",
+            "name": "output",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 10
+        },
+        {
+            "id": "BinaryConstraint.recalculate(self)",
+            "name": "recalculate",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 2
+        },
+        {
+            "id": "BinaryConstraint.mark_unsatisfied(self)",
+            "name": "mark_unsatisfied",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 1
+        },
+        {
+            "id": "BinaryConstraint.inputs_known(self, mark)",
+            "name": "inputs_known",
+            "params": "self, mark",
+            "class": "BinaryConstraint",
+            "calls": 8
+        },
+        {
+            "id": "BinaryConstraint.remove_from_graph(self)",
+            "name": "remove_from_graph",
+            "params": "self",
+            "class": "BinaryConstraint",
+            "calls": 2
+        },
+        {
+            "id": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "name": "__init__",
+            "params": "self, src, scale, offset, dest, strength",
+            "class": "ScaleConstraint",
+            "calls": 10
+        },
+        {
+            "id": "ScaleConstraint.add_to_graph(self)",
+            "name": "add_to_graph",
+            "params": "self",
+            "class": "ScaleConstraint",
+            "calls": 1
+        },
+        {
+            "id": "ScaleConstraint.remove_from_graph(self)",
+            "name": "remove_from_graph",
+            "params": "self",
+            "class": "ScaleConstraint",
+            "calls": 2
+        },
+        {
+            "id": "ScaleConstraint.mark_inputs(self, mark)",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "class": "ScaleConstraint",
+            "calls": 8
+        },
+        {
+            "id": "ScaleConstraint.execute(self)",
+            "name": "execute",
+            "params": "self",
+            "class": "ScaleConstraint",
+            "calls": 4
+        },
+        {
+            "id": "ScaleConstraint.recalculate(self)",
+            "name": "recalculate",
+            "params": "self",
+            "class": "ScaleConstraint",
+            "calls": 2
+        },
+        {
+            "id": "EqualityConstraint.execute(self)",
+            "name": "execute",
+            "params": "self",
+            "class": "EqualityConstraint",
+            "calls": 4
+        },
+        {
+            "id": "Variable.__init__(self, name, initial_value)",
+            "name": "__init__",
+            "params": "self, name, initial_value",
+            "class": "Variable",
+            "calls": 10
+        },
+        {
+            "id": "Variable.__repr__(self)",
+            "name": "__repr__",
+            "params": "self",
+            "class": "Variable",
+            "calls": 0
+        },
+        {
+            "id": "Variable.add_constraint(self, constraint)",
+            "name": "add_constraint",
+            "params": "self, constraint",
+            "class": "Variable",
+            "calls": 7
+        },
+        {
+            "id": "Variable.remove_constraint(self, constraint)",
+            "name": "remove_constraint",
+            "params": "self, constraint",
+            "class": "Variable",
+            "calls": 0
+        },
+        {
+            "id": "Planner.__init__(self)",
+            "name": "__init__",
+            "params": "self",
+            "class": "Planner",
+            "calls": 10
+        },
+        {
+            "id": "Planner.incremental_add(self, constraint)",
+            "name": "incremental_add",
+            "params": "self, constraint",
+            "class": "Planner",
+            "calls": 1
+        },
+        {
+            "id": "Planner.incremental_remove(self, constraint)",
+            "name": "incremental_remove",
+            "params": "self, constraint",
+            "class": "Planner",
+            "calls": 1
+        },
+        {
+            "id": "Planner.new_mark(self)",
+            "name": "new_mark",
+            "params": "self",
+            "class": "Planner",
+            "calls": 1
+        },
+        {
+            "id": "Planner.make_plan(self, sources)",
+            "name": "make_plan",
+            "params": "self, sources",
+            "class": "Planner",
+            "calls": 1
+        },
+        {
+            "id": "Planner.extract_plan_from_constraints(self, constraints)",
+            "name": "extract_plan_from_constraints",
+            "params": "self, constraints",
+            "class": "Planner",
+            "calls": 1
+        },
+        {
+            "id": "Planner.add_propagate(self, c, mark)",
+            "name": "add_propagate",
+            "params": "self, c, mark",
+            "class": "Planner",
+            "calls": 0
+        },
+        {
+            "id": "Planner.remove_propagate_from(self, out)",
+            "name": "remove_propagate_from",
+            "params": "self, out",
+            "class": "Planner",
+            "calls": 0
+        },
+        {
+            "id": "Planner.add_constraints_consuming_to(self, v, coll)",
+            "name": "add_constraints_consuming_to",
+            "params": "self, v, coll",
+            "class": "Planner",
+            "calls": 7
+        },
+        {
+            "id": "Plan.__init__(self)",
+            "name": "__init__",
+            "params": "self",
+            "class": "Plan",
+            "calls": 10
+        },
+        {
+            "id": "Plan.add_constraint(self, c)",
+            "name": "add_constraint",
+            "params": "self, c",
+            "class": "Plan",
+            "calls": 7
+        },
+        {
+            "id": "Plan.__len__(self)",
+            "name": "__len__",
+            "params": "self",
+            "class": "Plan",
+            "calls": 0
+        },
+        {
+            "id": "Plan.__getitem__(self, index)",
+            "name": "__getitem__",
+            "params": "self, index",
+            "class": "Plan",
+            "calls": 0
+        },
+        {
+            "id": "Plan.execute(self)",
+            "name": "execute",
+            "params": "self",
+            "class": "Plan",
+            "calls": 4
+        },
+        {
+            "id": "deltablue.py.chain_test(n)",
+            "name": "chain_test",
+            "params": "n",
+            "class": "deltablue.py",
+            "calls": 0
+        }
+    ],
+    "links": [
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "Strength.__init__(self, strength, name)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "Strength.weakest_of(cls, s1, s2)",
+            "target": "Strength.weaker(cls, s1, s2)"
+        },
+        {
+            "source": "Strength.weakest_of(cls, s1, s2)",
+            "target": "Strength.next_weaker(self)"
+        },
+        {
+            "source": "Strength.strongest(cls, s1, s2)",
+            "target": "Strength.stronger(cls, s1, s2)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "Constraint.__init__(self, strength)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "UrnaryConstraint.__init__(self, v, strength)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "UrnaryConstraint.add_to_graph(self)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "UrnaryConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "UrnaryConstraint.add_to_graph(self)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "UrnaryConstraint.add_to_graph(self)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "UrnaryConstraint.choose_method(self, mark)",
+            "target": "Strength.stronger(cls, s1, s2)"
+        },
+        {
+            "source": "UrnaryConstraint.output(self)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "UrnaryConstraint.output(self)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "UrnaryConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "UrnaryConstraint.recalculate(self)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "UrnaryConstraint.recalculate(self)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "UrnaryConstraint.recalculate(self)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "UrnaryConstraint.remove_from_graph(self)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "UrnaryConstraint.remove_from_graph(self)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "StayConstraint.__init__(self, v, string)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "EditConstraint.__init__(self, v, string)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "BinaryConstraint.__init__(self, v1, v2, strength)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "BinaryConstraint.choose_method(self, mark)",
+            "target": "Strength.stronger(cls, s1, s2)"
+        },
+        {
+            "source": "BinaryConstraint.choose_method(self, mark)",
+            "target": "Strength.weaker(cls, s1, s2)"
+        },
+        {
+            "source": "BinaryConstraint.choose_method(self, mark)",
+            "target": "Strength.next_weaker(self)"
+        },
+        {
+            "source": "BinaryConstraint.add_to_graph(self)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "BinaryConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "BinaryConstraint.add_to_graph(self)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "BinaryConstraint.add_to_graph(self)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "Strength.weakest_of(cls, s1, s2)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "StayConstraint.execute(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "EditConstraint.execute(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "ScaleConstraint.execute(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "EqualityConstraint.execute(self)"
+        },
+        {
+            "source": "BinaryConstraint.recalculate(self)",
+            "target": "Plan.execute(self)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "BinaryConstraint.inputs_known(self, mark)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "UrnaryConstraint.add_to_graph(self)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "BinaryConstraint.add_to_graph(self)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "ScaleConstraint.add_to_graph(self)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "ScaleConstraint.remove_from_graph(self)",
+            "target": "UrnaryConstraint.remove_from_graph(self)"
+        },
+        {
+            "source": "ScaleConstraint.remove_from_graph(self)",
+            "target": "BinaryConstraint.remove_from_graph(self)"
+        },
+        {
+            "source": "ScaleConstraint.remove_from_graph(self)",
+            "target": "ScaleConstraint.remove_from_graph(self)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self, mark)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "Strength.weakest_of(cls, s1, s2)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "StayConstraint.execute(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "EditConstraint.execute(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "ScaleConstraint.execute(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "EqualityConstraint.execute(self)"
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "Plan.execute(self)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "Variable.__init__(self, name, initial_value)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "Planner.__init__(self)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "Planner.incremental_add(self, constraint)",
+            "target": "Constraint.satisfy(self, mark)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "UrnaryConstraint.mark_unsatisfied(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "BinaryConstraint.mark_unsatisfied(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "UrnaryConstraint.remove_from_graph(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "BinaryConstraint.remove_from_graph(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "ScaleConstraint.remove_from_graph(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "Planner.incremental_add(self, constraint)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "Strength.weaker(cls, s1, s2)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "Strength.next_weaker(self)"
+        },
+        {
+            "source": "Planner.incremental_remove(self, constraint)",
+            "target": "Strength.next_weaker(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "Planner.new_mark(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "Planner.make_plan(self, sources)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "Constraint.is_input(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "UrnaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "UrnaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "EditConstraint.is_input(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "BinaryConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "BinaryConstraint.input(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "BinaryConstraint.inputs_known(self, mark)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "ScaleConstraint.mark_inputs(self, mark)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "UrnaryConstraint.is_satisfied(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "BinaryConstraint.is_satisfied(self)"
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self, constraints)",
+            "target": "Planner.make_plan(self, sources)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "Planner.incremental_remove(self, constraint)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "UrnaryConstraint.recalculate(self)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "BinaryConstraint.recalculate(self)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "ScaleConstraint.recalculate(self)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "Constraint.add_constraint(self)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "Variable.add_constraint(self, constraint)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "Planner.add_constraints_consuming_to(self, v, coll)"
+        },
+        {
+            "source": "Planner.add_propagate(self, c, mark)",
+            "target": "Plan.add_constraint(self, c)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "UrnaryConstraint.is_satisfied(self)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "BinaryConstraint.is_satisfied(self)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "UrnaryConstraint.recalculate(self)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "BinaryConstraint.recalculate(self)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "ScaleConstraint.recalculate(self)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "UrnaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.remove_propagate_from(self, out)",
+            "target": "BinaryConstraint.output(self)"
+        },
+        {
+            "source": "Planner.add_constraints_consuming_to(self, v, coll)",
+            "target": "UrnaryConstraint.is_satisfied(self)"
+        },
+        {
+            "source": "Planner.add_constraints_consuming_to(self, v, coll)",
+            "target": "BinaryConstraint.is_satisfied(self)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "Strength.__init__(self, strength, name)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "Constraint.__init__(self, strength)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "UrnaryConstraint.__init__(self, v, strength)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "StayConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "EditConstraint.__init__(self, v, string)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "BinaryConstraint.__init__(self, v1, v2, strength)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "ScaleConstraint.__init__(self, src, scale, offset, dest, strength)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "Variable.__init__(self, name, initial_value)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "Planner.__init__(self)"
+        },
+        {
+            "source": "Plan.__init__(self)",
+            "target": "Plan.__init__(self)"
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "StayConstraint.execute(self)"
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "EditConstraint.execute(self)"
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "ScaleConstraint.execute(self)"
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "EqualityConstraint.execute(self)"
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "Plan.execute(self)"
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "Planner.extract_plan_from_constraints(self, constraints)"
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "StayConstraint.execute(self)"
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "EditConstraint.execute(self)"
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "ScaleConstraint.execute(self)"
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "EqualityConstraint.execute(self)"
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "Plan.execute(self)"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+.App {
+  background-color: rgb(29, 31, 36);
+  color: rgb(197, 204, 203);
+}
+
+.content {
+  display: flex;
+}
+
+.force-graph-container {
+  float: left;
+}
+
+.details-panel {
+  background-color: rgb(41, 43, 51);
+  float: left;
+  border-left: 1px solid rgb(18, 18, 20);
+  flex-grow: 1;
+  padding: 2%;
+}
+
+#logo {
+  display: flex;
+  margin-bottom: -10%;
+}
+
+h1 {
+  float: left;
+  margin-left: 5%;
+  font-size: 11vw;
+}
+
+.loader {
+  display: flex;
+  height: 40px;  
+  line-height: 40px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#status {
+  padding-left: 3%;
+}

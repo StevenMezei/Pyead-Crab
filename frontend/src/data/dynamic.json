@@ -1,0 +1,1441 @@
+{
+    "nodes": [
+        {
+            "id": "deltablue.py.<module>",
+            "class": "deltablue.py",
+            "name": "",
+            "params": "",
+            "calls": 1
+        },
+        {
+            "id": "Plan.__init__(self)",
+            "class": "Plan",
+            "name": "__init__",
+            "params": "self",
+            "calls": 5
+        },
+        {
+            "id": "Planner.__init__(self)",
+            "class": "Planner",
+            "name": "__init__",
+            "params": "self",
+            "calls": 2
+        },
+        {
+            "id": "Variable.__init__(self,name,initial_value)",
+            "class": "Variable",
+            "name": "__init__",
+            "params": "self, name, initial_value",
+            "calls": 303
+        },
+        {
+            "id": "ScaleConstraint.__init__(self,src,scale,offset,dest,strength)",
+            "class": "ScaleConstraint",
+            "name": "__init__",
+            "params": "self, src, scale, offset, dest, strength",
+            "calls": 100
+        },
+        {
+            "id": "EditConstraint.__init__(self,strength)",
+            "class": "EditConstraint",
+            "name": "__init__",
+            "params": "self, strength",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.__init__(self,strength)",
+            "class": "EqualityConstraint",
+            "name": "__init__",
+            "params": "self, strength",
+            "calls": 100
+        },
+        {
+            "id": "ScaleConstraint.__init__(self,strength)",
+            "class": "ScaleConstraint",
+            "name": "__init__",
+            "params": "self, strength",
+            "calls": 100
+        },
+        {
+            "id": "StayConstraint.__init__(self,strength)",
+            "class": "StayConstraint",
+            "name": "__init__",
+            "params": "self, strength",
+            "calls": 101
+        },
+        {
+            "id": "Strength.__init__(self,strength,name)",
+            "class": "Strength",
+            "name": "__init__",
+            "params": "self, strength, name",
+            "calls": 7
+        },
+        {
+            "id": "EditConstraint.__init__(self,v,strength)",
+            "class": "EditConstraint",
+            "name": "__init__",
+            "params": "self, v, strength",
+            "calls": 5
+        },
+        {
+            "id": "StayConstraint.__init__(self,v,strength)",
+            "class": "StayConstraint",
+            "name": "__init__",
+            "params": "self, v, strength",
+            "calls": 101
+        },
+        {
+            "id": "EditConstraint.__init__(self,v,string)",
+            "class": "EditConstraint",
+            "name": "__init__",
+            "params": "self, v, string",
+            "calls": 5
+        },
+        {
+            "id": "StayConstraint.__init__(self,v,string)",
+            "class": "StayConstraint",
+            "name": "__init__",
+            "params": "self, v, string",
+            "calls": 101
+        },
+        {
+            "id": "EqualityConstraint.__init__(self,v1,v2,strength)",
+            "class": "EqualityConstraint",
+            "name": "__init__",
+            "params": "self, v1, v2, strength",
+            "calls": 100
+        },
+        {
+            "id": "ScaleConstraint.__init__(self,v1,v2,strength)",
+            "class": "ScaleConstraint",
+            "name": "__init__",
+            "params": "self, v1, v2, strength",
+            "calls": 100
+        },
+        {
+            "id": "EditConstraint.add_constraint(self)",
+            "class": "EditConstraint",
+            "name": "add_constraint",
+            "params": "self",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.add_constraint(self)",
+            "class": "EqualityConstraint",
+            "name": "add_constraint",
+            "params": "self",
+            "calls": 100
+        },
+        {
+            "id": "ScaleConstraint.add_constraint(self)",
+            "class": "ScaleConstraint",
+            "name": "add_constraint",
+            "params": "self",
+            "calls": 100
+        },
+        {
+            "id": "StayConstraint.add_constraint(self)",
+            "class": "StayConstraint",
+            "name": "add_constraint",
+            "params": "self",
+            "calls": 101
+        },
+        {
+            "id": "Plan.add_constraint(self,c)",
+            "class": "Plan",
+            "name": "add_constraint",
+            "params": "self, c",
+            "calls": 307
+        },
+        {
+            "id": "Variable.add_constraint(self,constraint)",
+            "class": "Variable",
+            "name": "add_constraint",
+            "params": "self, constraint",
+            "calls": 706
+        },
+        {
+            "id": "Planner.add_constraints_consuming_to(self,v,coll)",
+            "class": "Planner",
+            "name": "add_constraints_consuming_to",
+            "params": "self, v, coll",
+            "calls": 1015
+        },
+        {
+            "id": "Planner.add_propagate(self,c,mark)",
+            "class": "Planner",
+            "name": "add_propagate",
+            "params": "self, c, mark",
+            "calls": 507
+        },
+        {
+            "id": "EditConstraint.add_to_graph(self)",
+            "class": "EditConstraint",
+            "name": "add_to_graph",
+            "params": "self",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.add_to_graph(self)",
+            "class": "EqualityConstraint",
+            "name": "add_to_graph",
+            "params": "self",
+            "calls": 100
+        },
+        {
+            "id": "ScaleConstraint.add_to_graph(self)",
+            "class": "ScaleConstraint",
+            "name": "add_to_graph",
+            "params": "self",
+            "calls": 200
+        },
+        {
+            "id": "StayConstraint.add_to_graph(self)",
+            "class": "StayConstraint",
+            "name": "add_to_graph",
+            "params": "self",
+            "calls": 101
+        },
+        {
+            "id": "deltablue.py.chain_test(n)",
+            "class": "deltablue.py",
+            "name": "chain_test",
+            "params": "n",
+            "calls": 1
+        },
+        {
+            "id": "deltablue.py.change(v,new_value)",
+            "class": "deltablue.py",
+            "name": "change",
+            "params": "v, new_value",
+            "calls": 4
+        },
+        {
+            "id": "EditConstraint.choose_method(self,mark)",
+            "class": "EditConstraint",
+            "name": "choose_method",
+            "params": "self, mark",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.choose_method(self,mark)",
+            "class": "EqualityConstraint",
+            "name": "choose_method",
+            "params": "self, mark",
+            "calls": 300
+        },
+        {
+            "id": "ScaleConstraint.choose_method(self,mark)",
+            "class": "ScaleConstraint",
+            "name": "choose_method",
+            "params": "self, mark",
+            "calls": 101
+        },
+        {
+            "id": "StayConstraint.choose_method(self,mark)",
+            "class": "StayConstraint",
+            "name": "choose_method",
+            "params": "self, mark",
+            "calls": 103
+        },
+        {
+            "id": "deltablue.py.delta_blue()",
+            "class": "deltablue.py",
+            "name": "delta_blue",
+            "params": "",
+            "calls": 1
+        },
+        {
+            "id": "EditConstraint.destroy_constraint(self)",
+            "class": "EditConstraint",
+            "name": "destroy_constraint",
+            "params": "self",
+            "calls": 4
+        },
+        {
+            "id": "EditConstraint.execute(self)",
+            "class": "EditConstraint",
+            "name": "execute",
+            "params": "self",
+            "calls": 140
+        },
+        {
+            "id": "EqualityConstraint.execute(self)",
+            "class": "EqualityConstraint",
+            "name": "execute",
+            "params": "self",
+            "calls": 10200
+        },
+        {
+            "id": "Plan.execute(self)",
+            "class": "Plan",
+            "name": "execute",
+            "params": "self",
+            "calls": 140
+        },
+        {
+            "id": "ScaleConstraint.execute(self)",
+            "class": "ScaleConstraint",
+            "name": "execute",
+            "params": "self",
+            "calls": 2322
+        },
+        {
+            "id": "StayConstraint.execute(self)",
+            "class": "StayConstraint",
+            "name": "execute",
+            "params": "self",
+            "calls": 101
+        },
+        {
+            "id": "Planner.extract_plan_from_constraints(self,constraints)",
+            "class": "Planner",
+            "name": "extract_plan_from_constraints",
+            "params": "self, constraints",
+            "calls": 5
+        },
+        {
+            "id": "Planner.incremental_add(self,constraint)",
+            "class": "Planner",
+            "name": "incremental_add",
+            "params": "self, constraint",
+            "calls": 306
+        },
+        {
+            "id": "Planner.incremental_remove(self,constraint)",
+            "class": "Planner",
+            "name": "incremental_remove",
+            "params": "self, constraint",
+            "calls": 4
+        },
+        {
+            "id": "EqualityConstraint.input(self)",
+            "class": "EqualityConstraint",
+            "name": "input",
+            "params": "self",
+            "calls": 10900
+        },
+        {
+            "id": "ScaleConstraint.input(self)",
+            "class": "ScaleConstraint",
+            "name": "input",
+            "params": "self",
+            "calls": 807
+        },
+        {
+            "id": "EditConstraint.inputs_known(self,mark)",
+            "class": "EditConstraint",
+            "name": "inputs_known",
+            "params": "self, mark",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.inputs_known(self,mark)",
+            "class": "EqualityConstraint",
+            "name": "inputs_known",
+            "params": "self, mark",
+            "calls": 100
+        },
+        {
+            "id": "ScaleConstraint.inputs_known(self,mark)",
+            "class": "ScaleConstraint",
+            "name": "inputs_known",
+            "params": "self, mark",
+            "calls": 202
+        },
+        {
+            "id": "EditConstraint.is_input(self)",
+            "class": "EditConstraint",
+            "name": "is_input",
+            "params": "self",
+            "calls": 10
+        },
+        {
+            "id": "StayConstraint.is_input(self)",
+            "class": "StayConstraint",
+            "name": "is_input",
+            "params": "self",
+            "calls": 101
+        },
+        {
+            "id": "EditConstraint.is_satisfied(self)",
+            "class": "EditConstraint",
+            "name": "is_satisfied",
+            "params": "self",
+            "calls": 14
+        },
+        {
+            "id": "EqualityConstraint.is_satisfied(self)",
+            "class": "EqualityConstraint",
+            "name": "is_satisfied",
+            "params": "self",
+            "calls": 600
+        },
+        {
+            "id": "ScaleConstraint.is_satisfied(self)",
+            "class": "ScaleConstraint",
+            "name": "is_satisfied",
+            "params": "self",
+            "calls": 1111
+        },
+        {
+            "id": "StayConstraint.is_satisfied(self)",
+            "class": "StayConstraint",
+            "name": "is_satisfied",
+            "params": "self",
+            "calls": 121
+        },
+        {
+            "id": "Planner.make_plan(self,sources)",
+            "class": "Planner",
+            "name": "make_plan",
+            "params": "self, sources",
+            "calls": 5
+        },
+        {
+            "id": "EditConstraint.mark_inputs(self,mark)",
+            "class": "EditConstraint",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.mark_inputs(self,mark)",
+            "class": "EqualityConstraint",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "calls": 300
+        },
+        {
+            "id": "ScaleConstraint.mark_inputs(self,mark)",
+            "class": "ScaleConstraint",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "calls": 202
+        },
+        {
+            "id": "StayConstraint.mark_inputs(self,mark)",
+            "class": "StayConstraint",
+            "name": "mark_inputs",
+            "params": "self, mark",
+            "calls": 101
+        },
+        {
+            "id": "EditConstraint.mark_unsatisfied(self)",
+            "class": "EditConstraint",
+            "name": "mark_unsatisfied",
+            "params": "self",
+            "calls": 4
+        },
+        {
+            "id": "EqualityConstraint.mark_unsatisfied(self)",
+            "class": "EqualityConstraint",
+            "name": "mark_unsatisfied",
+            "params": "self",
+            "calls": 200
+        },
+        {
+            "id": "ScaleConstraint.mark_unsatisfied(self)",
+            "class": "ScaleConstraint",
+            "name": "mark_unsatisfied",
+            "params": "self",
+            "calls": 1
+        },
+        {
+            "id": "StayConstraint.mark_unsatisfied(self)",
+            "class": "StayConstraint",
+            "name": "mark_unsatisfied",
+            "params": "self",
+            "calls": 2
+        },
+        {
+            "id": "Planner.new_mark(self)",
+            "class": "Planner",
+            "name": "new_mark",
+            "params": "self",
+            "calls": 311
+        },
+        {
+            "id": "Strength.next_weaker(self)",
+            "class": "Strength",
+            "name": "next_weaker",
+            "params": "self",
+            "calls": 4
+        },
+        {
+            "id": "EditConstraint.output(self)",
+            "class": "EditConstraint",
+            "name": "output",
+            "params": "self",
+            "calls": 34
+        },
+        {
+            "id": "EqualityConstraint.output(self)",
+            "class": "EqualityConstraint",
+            "name": "output",
+            "params": "self",
+            "calls": 11700
+        },
+        {
+            "id": "ScaleConstraint.output(self)",
+            "class": "ScaleConstraint",
+            "name": "output",
+            "params": "self",
+            "calls": 2017
+        },
+        {
+            "id": "StayConstraint.output(self)",
+            "class": "StayConstraint",
+            "name": "output",
+            "params": "self",
+            "calls": 303
+        },
+        {
+            "id": "deltablue.py.projection_test(n)",
+            "class": "deltablue.py",
+            "name": "projection_test",
+            "params": "n",
+            "calls": 1
+        },
+        {
+            "id": "EditConstraint.recalculate(self)",
+            "class": "EditConstraint",
+            "name": "recalculate",
+            "params": "self",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.recalculate(self)",
+            "class": "EqualityConstraint",
+            "name": "recalculate",
+            "params": "self",
+            "calls": 300
+        },
+        {
+            "id": "ScaleConstraint.recalculate(self)",
+            "class": "ScaleConstraint",
+            "name": "recalculate",
+            "params": "self",
+            "calls": 504
+        },
+        {
+            "id": "StayConstraint.recalculate(self)",
+            "class": "StayConstraint",
+            "name": "recalculate",
+            "params": "self",
+            "calls": 101
+        },
+        {
+            "id": "Variable.remove_constraint(self,constraint)",
+            "class": "Variable",
+            "name": "remove_constraint",
+            "params": "self, constraint",
+            "calls": 4
+        },
+        {
+            "id": "EditConstraint.remove_from_graph(self)",
+            "class": "EditConstraint",
+            "name": "remove_from_graph",
+            "params": "self",
+            "calls": 4
+        },
+        {
+            "id": "Planner.remove_propagate_from(self,out)",
+            "class": "Planner",
+            "name": "remove_propagate_from",
+            "params": "self, out",
+            "calls": 4
+        },
+        {
+            "id": "EditConstraint.satisfy(self,mark)",
+            "class": "EditConstraint",
+            "name": "satisfy",
+            "params": "self, mark",
+            "calls": 5
+        },
+        {
+            "id": "EqualityConstraint.satisfy(self,mark)",
+            "class": "EqualityConstraint",
+            "name": "satisfy",
+            "params": "self, mark",
+            "calls": 300
+        },
+        {
+            "id": "ScaleConstraint.satisfy(self,mark)",
+            "class": "ScaleConstraint",
+            "name": "satisfy",
+            "params": "self, mark",
+            "calls": 101
+        },
+        {
+            "id": "StayConstraint.satisfy(self,mark)",
+            "class": "StayConstraint",
+            "name": "satisfy",
+            "params": "self, mark",
+            "calls": 103
+        },
+        {
+            "id": "Strength.stronger(cls,s1,s2)",
+            "class": "Strength",
+            "name": "stronger",
+            "params": "cls, s1, s2",
+            "calls": 708
+        },
+        {
+            "id": "Strength.weaker(cls,s1,s2)",
+            "class": "Strength",
+            "name": "weaker",
+            "params": "cls, s1, s2",
+            "calls": 1205
+        },
+        {
+            "id": "Strength.weakest_of(cls,s1,s2)",
+            "class": "Strength",
+            "name": "weakest_of",
+            "params": "cls, s1, s2",
+            "calls": 804
+        }
+    ],
+    "links": [
+        {
+            "source": "deltablue.py.<module>",
+            "target": "Strength.__init__(self,strength,name)",
+            "calls": 7,
+            "probability": 0.875
+        },
+        {
+            "source": "deltablue.py.<module>",
+            "target": "deltablue.py.delta_blue()",
+            "calls": 1,
+            "probability": 0.125
+        },
+        {
+            "source": "ScaleConstraint.__init__(self,src,scale,offset,dest,strength)",
+            "target": "ScaleConstraint.__init__(self,v1,v2,strength)",
+            "calls": 100,
+            "probability": 1.0
+        },
+        {
+            "source": "EditConstraint.__init__(self,v,strength)",
+            "target": "EditConstraint.__init__(self,strength)",
+            "calls": 5,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.__init__(self,v,strength)",
+            "target": "EditConstraint.add_constraint(self)",
+            "calls": 5,
+            "probability": 0.5
+        },
+        {
+            "source": "StayConstraint.__init__(self,v,strength)",
+            "target": "StayConstraint.__init__(self,strength)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "StayConstraint.__init__(self,v,strength)",
+            "target": "StayConstraint.add_constraint(self)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.__init__(self,v,string)",
+            "target": "EditConstraint.__init__(self,v,strength)",
+            "calls": 5,
+            "probability": 1.0
+        },
+        {
+            "source": "StayConstraint.__init__(self,v,string)",
+            "target": "StayConstraint.__init__(self,v,strength)",
+            "calls": 101,
+            "probability": 1.0
+        },
+        {
+            "source": "EqualityConstraint.__init__(self,v1,v2,strength)",
+            "target": "EqualityConstraint.__init__(self,strength)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "EqualityConstraint.__init__(self,v1,v2,strength)",
+            "target": "EqualityConstraint.add_constraint(self)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "ScaleConstraint.__init__(self,v1,v2,strength)",
+            "target": "ScaleConstraint.__init__(self,strength)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "ScaleConstraint.__init__(self,v1,v2,strength)",
+            "target": "ScaleConstraint.add_constraint(self)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.add_constraint(self)",
+            "target": "EditConstraint.add_to_graph(self)",
+            "calls": 5,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.add_constraint(self)",
+            "target": "Planner.incremental_add(self,constraint)",
+            "calls": 5,
+            "probability": 0.5
+        },
+        {
+            "source": "EqualityConstraint.add_constraint(self)",
+            "target": "EqualityConstraint.add_to_graph(self)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "EqualityConstraint.add_constraint(self)",
+            "target": "Planner.incremental_add(self,constraint)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "ScaleConstraint.add_constraint(self)",
+            "target": "ScaleConstraint.add_to_graph(self)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "ScaleConstraint.add_constraint(self)",
+            "target": "Planner.incremental_add(self,constraint)",
+            "calls": 100,
+            "probability": 0.5
+        },
+        {
+            "source": "StayConstraint.add_constraint(self)",
+            "target": "StayConstraint.add_to_graph(self)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "StayConstraint.add_constraint(self)",
+            "target": "Planner.incremental_add(self,constraint)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "Planner.add_constraints_consuming_to(self,v,coll)",
+            "target": "EqualityConstraint.is_satisfied(self)",
+            "calls": 300,
+            "probability": 0.42016806722689076
+        },
+        {
+            "source": "Planner.add_constraints_consuming_to(self,v,coll)",
+            "target": "ScaleConstraint.is_satisfied(self)",
+            "calls": 404,
+            "probability": 0.5658263305322129
+        },
+        {
+            "source": "Planner.add_constraints_consuming_to(self,v,coll)",
+            "target": "StayConstraint.is_satisfied(self)",
+            "calls": 10,
+            "probability": 0.014005602240896359
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "Planner.add_constraints_consuming_to(self,v,coll)",
+            "calls": 708,
+            "probability": 0.25
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "EditConstraint.output(self)",
+            "calls": 10,
+            "probability": 0.0035310734463276836
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "EqualityConstraint.output(self)",
+            "calls": 600,
+            "probability": 0.211864406779661
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "ScaleConstraint.output(self)",
+            "calls": 604,
+            "probability": 0.2132768361581921
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "StayConstraint.output(self)",
+            "calls": 202,
+            "probability": 0.0713276836158192
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "EditConstraint.recalculate(self)",
+            "calls": 5,
+            "probability": 0.0017655367231638418
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "EqualityConstraint.recalculate(self)",
+            "calls": 300,
+            "probability": 0.1059322033898305
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "ScaleConstraint.recalculate(self)",
+            "calls": 302,
+            "probability": 0.10663841807909605
+        },
+        {
+            "source": "Planner.add_propagate(self,c,mark)",
+            "target": "StayConstraint.recalculate(self)",
+            "calls": 101,
+            "probability": 0.0356638418079096
+        },
+        {
+            "source": "EditConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self,constraint)",
+            "calls": 5,
+            "probability": 1.0
+        },
+        {
+            "source": "EqualityConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self,constraint)",
+            "calls": 200,
+            "probability": 1.0
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self,constraint)",
+            "calls": 400,
+            "probability": 0.8
+        },
+        {
+            "source": "ScaleConstraint.add_to_graph(self)",
+            "target": "ScaleConstraint.add_to_graph(self)",
+            "calls": 100,
+            "probability": 0.2
+        },
+        {
+            "source": "StayConstraint.add_to_graph(self)",
+            "target": "Variable.add_constraint(self,constraint)",
+            "calls": 101,
+            "probability": 1.0
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "Planner.__init__(self)",
+            "calls": 1,
+            "probability": 0.003278688524590164
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "Variable.__init__(self,name,initial_value)",
+            "calls": 101,
+            "probability": 0.33114754098360655
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "EditConstraint.__init__(self,v,string)",
+            "calls": 1,
+            "probability": 0.003278688524590164
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "StayConstraint.__init__(self,v,string)",
+            "calls": 1,
+            "probability": 0.003278688524590164
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "EqualityConstraint.__init__(self,v1,v2,strength)",
+            "calls": 100,
+            "probability": 0.32786885245901637
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "Plan.execute(self)",
+            "calls": 100,
+            "probability": 0.32786885245901637
+        },
+        {
+            "source": "deltablue.py.chain_test(n)",
+            "target": "Planner.extract_plan_from_constraints(self,constraints)",
+            "calls": 1,
+            "probability": 0.003278688524590164
+        },
+        {
+            "source": "deltablue.py.change(v,new_value)",
+            "target": "EditConstraint.__init__(self,v,string)",
+            "calls": 4,
+            "probability": 0.07692307692307693
+        },
+        {
+            "source": "deltablue.py.change(v,new_value)",
+            "target": "EditConstraint.destroy_constraint(self)",
+            "calls": 4,
+            "probability": 0.07692307692307693
+        },
+        {
+            "source": "deltablue.py.change(v,new_value)",
+            "target": "Plan.execute(self)",
+            "calls": 40,
+            "probability": 0.7692307692307693
+        },
+        {
+            "source": "deltablue.py.change(v,new_value)",
+            "target": "Planner.extract_plan_from_constraints(self,constraints)",
+            "calls": 4,
+            "probability": 0.07692307692307693
+        },
+        {
+            "source": "EditConstraint.choose_method(self,mark)",
+            "target": "Strength.stronger(cls,s1,s2)",
+            "calls": 5,
+            "probability": 1.0
+        },
+        {
+            "source": "EqualityConstraint.choose_method(self,mark)",
+            "target": "Strength.stronger(cls,s1,s2)",
+            "calls": 500,
+            "probability": 0.625
+        },
+        {
+            "source": "EqualityConstraint.choose_method(self,mark)",
+            "target": "Strength.weaker(cls,s1,s2)",
+            "calls": 300,
+            "probability": 0.375
+        },
+        {
+            "source": "ScaleConstraint.choose_method(self,mark)",
+            "target": "Strength.stronger(cls,s1,s2)",
+            "calls": 102,
+            "probability": 0.5024630541871922
+        },
+        {
+            "source": "ScaleConstraint.choose_method(self,mark)",
+            "target": "Strength.weaker(cls,s1,s2)",
+            "calls": 101,
+            "probability": 0.4975369458128079
+        },
+        {
+            "source": "StayConstraint.choose_method(self,mark)",
+            "target": "Strength.stronger(cls,s1,s2)",
+            "calls": 101,
+            "probability": 1.0
+        },
+        {
+            "source": "deltablue.py.delta_blue()",
+            "target": "deltablue.py.chain_test(n)",
+            "calls": 1,
+            "probability": 0.5
+        },
+        {
+            "source": "deltablue.py.delta_blue()",
+            "target": "deltablue.py.projection_test(n)",
+            "calls": 1,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.destroy_constraint(self)",
+            "target": "Planner.incremental_remove(self,constraint)",
+            "calls": 4,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.destroy_constraint(self)",
+            "target": "EditConstraint.is_satisfied(self)",
+            "calls": 4,
+            "probability": 0.5
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "EqualityConstraint.input(self)",
+            "calls": 10200,
+            "probability": 0.5
+        },
+        {
+            "source": "EqualityConstraint.execute(self)",
+            "target": "EqualityConstraint.output(self)",
+            "calls": 10200,
+            "probability": 0.5
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "EditConstraint.execute(self)",
+            "calls": 140,
+            "probability": 0.011513157894736841
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "EqualityConstraint.execute(self)",
+            "calls": 10000,
+            "probability": 0.8223684210526315
+        },
+        {
+            "source": "Plan.execute(self)",
+            "target": "ScaleConstraint.execute(self)",
+            "calls": 2020,
+            "probability": 0.16611842105263158
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self,constraints)",
+            "target": "EditConstraint.is_input(self)",
+            "calls": 5,
+            "probability": 0.3333333333333333
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self,constraints)",
+            "target": "EditConstraint.is_satisfied(self)",
+            "calls": 5,
+            "probability": 0.3333333333333333
+        },
+        {
+            "source": "Planner.extract_plan_from_constraints(self,constraints)",
+            "target": "Planner.make_plan(self,sources)",
+            "calls": 5,
+            "probability": 0.3333333333333333
+        },
+        {
+            "source": "Planner.incremental_add(self,constraint)",
+            "target": "Planner.new_mark(self)",
+            "calls": 306,
+            "probability": 0.3754601226993865
+        },
+        {
+            "source": "Planner.incremental_add(self,constraint)",
+            "target": "EditConstraint.satisfy(self,mark)",
+            "calls": 5,
+            "probability": 0.006134969325153374
+        },
+        {
+            "source": "Planner.incremental_add(self,constraint)",
+            "target": "EqualityConstraint.satisfy(self,mark)",
+            "calls": 300,
+            "probability": 0.36809815950920244
+        },
+        {
+            "source": "Planner.incremental_add(self,constraint)",
+            "target": "ScaleConstraint.satisfy(self,mark)",
+            "calls": 101,
+            "probability": 0.12392638036809817
+        },
+        {
+            "source": "Planner.incremental_add(self,constraint)",
+            "target": "StayConstraint.satisfy(self,mark)",
+            "calls": 103,
+            "probability": 0.1263803680981595
+        },
+        {
+            "source": "Planner.incremental_remove(self,constraint)",
+            "target": "EditConstraint.mark_unsatisfied(self)",
+            "calls": 4,
+            "probability": 0.2
+        },
+        {
+            "source": "Planner.incremental_remove(self,constraint)",
+            "target": "Strength.next_weaker(self)",
+            "calls": 4,
+            "probability": 0.2
+        },
+        {
+            "source": "Planner.incremental_remove(self,constraint)",
+            "target": "EditConstraint.output(self)",
+            "calls": 4,
+            "probability": 0.2
+        },
+        {
+            "source": "Planner.incremental_remove(self,constraint)",
+            "target": "EditConstraint.remove_from_graph(self)",
+            "calls": 4,
+            "probability": 0.2
+        },
+        {
+            "source": "Planner.incremental_remove(self,constraint)",
+            "target": "Planner.remove_propagate_from(self,out)",
+            "calls": 4,
+            "probability": 0.2
+        },
+        {
+            "source": "EqualityConstraint.inputs_known(self,mark)",
+            "target": "EqualityConstraint.input(self)",
+            "calls": 100,
+            "probability": 1.0
+        },
+        {
+            "source": "ScaleConstraint.inputs_known(self,mark)",
+            "target": "ScaleConstraint.input(self)",
+            "calls": 202,
+            "probability": 1.0
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "Plan.__init__(self)",
+            "calls": 5,
+            "probability": 0.0026997840172786176
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "Plan.add_constraint(self,c)",
+            "calls": 307,
+            "probability": 0.16576673866090713
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "Planner.add_constraints_consuming_to(self,v,coll)",
+            "calls": 307,
+            "probability": 0.16576673866090713
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "EditConstraint.inputs_known(self,mark)",
+            "calls": 5,
+            "probability": 0.0026997840172786176
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "EqualityConstraint.inputs_known(self,mark)",
+            "calls": 100,
+            "probability": 0.05399568034557235
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "ScaleConstraint.inputs_known(self,mark)",
+            "calls": 202,
+            "probability": 0.10907127429805616
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "Planner.new_mark(self)",
+            "calls": 5,
+            "probability": 0.0026997840172786176
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "EditConstraint.output(self)",
+            "calls": 15,
+            "probability": 0.008099352051835854
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "EqualityConstraint.output(self)",
+            "calls": 300,
+            "probability": 0.16198704103671707
+        },
+        {
+            "source": "Planner.make_plan(self,sources)",
+            "target": "ScaleConstraint.output(self)",
+            "calls": 606,
+            "probability": 0.32721382289416845
+        },
+        {
+            "source": "EqualityConstraint.mark_inputs(self,mark)",
+            "target": "EqualityConstraint.input(self)",
+            "calls": 300,
+            "probability": 1.0
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self,mark)",
+            "target": "ScaleConstraint.input(self)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "ScaleConstraint.mark_inputs(self,mark)",
+            "target": "ScaleConstraint.mark_inputs(self,mark)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "deltablue.py.projection_test(n)",
+            "target": "Planner.__init__(self)",
+            "calls": 1,
+            "probability": 0.002457002457002457
+        },
+        {
+            "source": "deltablue.py.projection_test(n)",
+            "target": "Variable.__init__(self,name,initial_value)",
+            "calls": 202,
+            "probability": 0.4963144963144963
+        },
+        {
+            "source": "deltablue.py.projection_test(n)",
+            "target": "ScaleConstraint.__init__(self,src,scale,offset,dest,strength)",
+            "calls": 100,
+            "probability": 0.2457002457002457
+        },
+        {
+            "source": "deltablue.py.projection_test(n)",
+            "target": "StayConstraint.__init__(self,v,string)",
+            "calls": 100,
+            "probability": 0.2457002457002457
+        },
+        {
+            "source": "deltablue.py.projection_test(n)",
+            "target": "deltablue.py.change(v,new_value)",
+            "calls": 4,
+            "probability": 0.009828009828009828
+        },
+        {
+            "source": "EditConstraint.recalculate(self)",
+            "target": "EditConstraint.is_input(self)",
+            "calls": 5,
+            "probability": 1.0
+        },
+        {
+            "source": "EqualityConstraint.recalculate(self)",
+            "target": "EqualityConstraint.execute(self)",
+            "calls": 200,
+            "probability": 0.18181818181818182
+        },
+        {
+            "source": "EqualityConstraint.recalculate(self)",
+            "target": "EqualityConstraint.input(self)",
+            "calls": 300,
+            "probability": 0.2727272727272727
+        },
+        {
+            "source": "EqualityConstraint.recalculate(self)",
+            "target": "EqualityConstraint.output(self)",
+            "calls": 300,
+            "probability": 0.2727272727272727
+        },
+        {
+            "source": "EqualityConstraint.recalculate(self)",
+            "target": "Strength.weakest_of(cls,s1,s2)",
+            "calls": 300,
+            "probability": 0.2727272727272727
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "ScaleConstraint.execute(self)",
+            "calls": 302,
+            "probability": 0.16648291069459759
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "ScaleConstraint.input(self)",
+            "calls": 504,
+            "probability": 0.27783902976846747
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "ScaleConstraint.output(self)",
+            "calls": 504,
+            "probability": 0.27783902976846747
+        },
+        {
+            "source": "ScaleConstraint.recalculate(self)",
+            "target": "Strength.weakest_of(cls,s1,s2)",
+            "calls": 504,
+            "probability": 0.27783902976846747
+        },
+        {
+            "source": "StayConstraint.recalculate(self)",
+            "target": "StayConstraint.execute(self)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "StayConstraint.recalculate(self)",
+            "target": "StayConstraint.is_input(self)",
+            "calls": 101,
+            "probability": 0.5
+        },
+        {
+            "source": "EditConstraint.remove_from_graph(self)",
+            "target": "Variable.remove_constraint(self,constraint)",
+            "calls": 4,
+            "probability": 1.0
+        },
+        {
+            "source": "Planner.remove_propagate_from(self,out)",
+            "target": "ScaleConstraint.is_satisfied(self)",
+            "calls": 606,
+            "probability": 0.5952848722986247
+        },
+        {
+            "source": "Planner.remove_propagate_from(self,out)",
+            "target": "StayConstraint.is_satisfied(self)",
+            "calls": 8,
+            "probability": 0.007858546168958742
+        },
+        {
+            "source": "Planner.remove_propagate_from(self,out)",
+            "target": "ScaleConstraint.output(self)",
+            "calls": 202,
+            "probability": 0.19842829076620824
+        },
+        {
+            "source": "Planner.remove_propagate_from(self,out)",
+            "target": "ScaleConstraint.recalculate(self)",
+            "calls": 202,
+            "probability": 0.19842829076620824
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "Planner.add_propagate(self,c,mark)",
+            "calls": 5,
+            "probability": 0.17857142857142858
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "EditConstraint.choose_method(self,mark)",
+            "calls": 5,
+            "probability": 0.17857142857142858
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "EditConstraint.is_satisfied(self)",
+            "calls": 5,
+            "probability": 0.17857142857142858
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "EditConstraint.mark_inputs(self,mark)",
+            "calls": 5,
+            "probability": 0.17857142857142858
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.mark_unsatisfied(self)",
+            "calls": 1,
+            "probability": 0.03571428571428571
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "ScaleConstraint.mark_unsatisfied(self)",
+            "calls": 1,
+            "probability": 0.03571428571428571
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "StayConstraint.mark_unsatisfied(self)",
+            "calls": 1,
+            "probability": 0.03571428571428571
+        },
+        {
+            "source": "EditConstraint.satisfy(self,mark)",
+            "target": "EditConstraint.output(self)",
+            "calls": 5,
+            "probability": 0.17857142857142858
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "Planner.add_propagate(self,c,mark)",
+            "calls": 300,
+            "probability": 0.17657445556209536
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.choose_method(self,mark)",
+            "calls": 300,
+            "probability": 0.17657445556209536
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.is_satisfied(self)",
+            "calls": 300,
+            "probability": 0.17657445556209536
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.mark_inputs(self,mark)",
+            "calls": 300,
+            "probability": 0.17657445556209536
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.mark_unsatisfied(self)",
+            "calls": 198,
+            "probability": 0.11653914067098294
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "StayConstraint.mark_unsatisfied(self)",
+            "calls": 1,
+            "probability": 0.0005885815185403178
+        },
+        {
+            "source": "EqualityConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.output(self)",
+            "calls": 300,
+            "probability": 0.17657445556209536
+        },
+        {
+            "source": "ScaleConstraint.satisfy(self,mark)",
+            "target": "Planner.add_propagate(self,c,mark)",
+            "calls": 101,
+            "probability": 0.2
+        },
+        {
+            "source": "ScaleConstraint.satisfy(self,mark)",
+            "target": "ScaleConstraint.choose_method(self,mark)",
+            "calls": 101,
+            "probability": 0.2
+        },
+        {
+            "source": "ScaleConstraint.satisfy(self,mark)",
+            "target": "ScaleConstraint.is_satisfied(self)",
+            "calls": 101,
+            "probability": 0.2
+        },
+        {
+            "source": "ScaleConstraint.satisfy(self,mark)",
+            "target": "ScaleConstraint.mark_inputs(self,mark)",
+            "calls": 101,
+            "probability": 0.2
+        },
+        {
+            "source": "ScaleConstraint.satisfy(self,mark)",
+            "target": "ScaleConstraint.output(self)",
+            "calls": 101,
+            "probability": 0.2
+        },
+        {
+            "source": "StayConstraint.satisfy(self,mark)",
+            "target": "Planner.add_propagate(self,c,mark)",
+            "calls": 101,
+            "probability": 0.1980392156862745
+        },
+        {
+            "source": "StayConstraint.satisfy(self,mark)",
+            "target": "StayConstraint.choose_method(self,mark)",
+            "calls": 103,
+            "probability": 0.2019607843137255
+        },
+        {
+            "source": "StayConstraint.satisfy(self,mark)",
+            "target": "StayConstraint.is_satisfied(self)",
+            "calls": 103,
+            "probability": 0.2019607843137255
+        },
+        {
+            "source": "StayConstraint.satisfy(self,mark)",
+            "target": "StayConstraint.mark_inputs(self,mark)",
+            "calls": 101,
+            "probability": 0.1980392156862745
+        },
+        {
+            "source": "StayConstraint.satisfy(self,mark)",
+            "target": "EqualityConstraint.mark_unsatisfied(self)",
+            "calls": 1,
+            "probability": 0.00196078431372549
+        },
+        {
+            "source": "StayConstraint.satisfy(self,mark)",
+            "target": "StayConstraint.output(self)",
+            "calls": 101,
+            "probability": 0.1980392156862745
+        },
+        {
+            "source": "Strength.weakest_of(cls,s1,s2)",
+            "target": "Strength.weaker(cls,s1,s2)",
+            "calls": 804,
+            "probability": 1.0
+        }
+    ]
+}
